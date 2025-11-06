@@ -20,8 +20,6 @@ gemini_model = ChatGoogleGenerativeAI(model = "gemini-2.5-flash")
 tweet_chain = tweet_prompt | gemini_model
 
 
-import streamlit as st
-
 st.header("Tweet Generator - SATVIK")
 
 st.subheader("Generate tweets using Generative AI")
